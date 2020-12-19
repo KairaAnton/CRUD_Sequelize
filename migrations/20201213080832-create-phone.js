@@ -9,24 +9,31 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       model: {
+        allowNull:false,
         type: Sequelize.STRING
       },
       brand: {
+        allowNull:false,
         type: Sequelize.STRING
       },
       yearOfCreation: {
-        type: Sequelize.INTEGER
+      allowNull:false,
+      type:Sequelize.INTEGER
       },
       RAM: {
-        type: Sequelize.INTEGER
+      allowNull:false,
+       type: Sequelize.INTEGER
       },
       CPU: {
+        allowNull:false,
         type: Sequelize.STRING
       },
       diagonal: {
+        allowNull:false,
         type: Sequelize.REAL
       },
       NFC: {
+        allowNull:false,
         type: Sequelize.BOOLEAN
       },
       createdAt: {
